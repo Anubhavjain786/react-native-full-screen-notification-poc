@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "540242298017",
+    "project_id": "full-screen-notification-24fb4",
+    "storage_bucket": "full-screen-notification-24fb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540242298017:android:15777909550ac50f6c9ce0",
+        "android_client_info": {
+          "package_name": "com.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540242298017-igteha08l7p7nhs78og1opmtogoc716o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFc1Qvhlfi66qc_izzDMP1YXesYzrM5uA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540242298017-igteha08l7p7nhs78og1opmtogoc716o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
