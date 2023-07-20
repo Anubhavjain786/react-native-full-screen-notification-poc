@@ -1,4 +1,5 @@
 import messaging from '@react-native-firebase/messaging';
+import NavigationService from '../NavigationService';
 
 export const notificationListener = () => {
   messaging().onNotificationOpenedApp(remoteMessage => {
@@ -13,6 +14,7 @@ export const notificationListener = () => {
     .getInitialNotification()
     .then(remoteMessage => {
       if (remoteMessage) {
+        NavigationService.navigate('login', '');
         console.log(
           'Notification caused app to open from quit state:',
           remoteMessage.notification,
@@ -23,8 +25,6 @@ export const notificationListener = () => {
 
 export const getToken1 = async () => {
   try {
-    console.log('##################=>', messaging().getToken());
-
     messaging()
       .getToken()
       .then(v => {
